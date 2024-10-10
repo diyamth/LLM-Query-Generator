@@ -5,10 +5,8 @@
 - Introduction
 - Features
 - Installation
-- Usage
 - Examples
 - Project Structure
-- Contributing
 - License
   
 ## Introduction
@@ -23,9 +21,21 @@ LLM Query Generator simplifies the process of generating structured queries usin
 - Integration with existing systems
 
 ## Installation
-Prerequisites
-Before you begin, ensure you have the following installed:
-Python 3.8+
-Required Python packages (listed in requirements.txt)
-print("git clone https://github.com/diyamth/LLM-Query-Generator.git
-cd LLM-Query-Generator")
+1. Clone the repository: https://github.com/diyamth/LLM-Query-Generator.git
+2. Install required libraries:  pip install -r requirements.txt
+
+## Example
+Here’s an example of generating a SQL query:
+python generate_query.py --input "Get all users who signed up in 2024" --output-format SQL
+
+## Project Structure 
+LLM-Query-Generator/
+│
+├── generate_query.py           # Main script to generate queries
+├── config.yaml                 # Configuration file for LLM settings
+├── requirements.txt            # List of required Python libraries
+├── README.md                   # Project documentation
+└── examples/                   # Folder containing example queries
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.

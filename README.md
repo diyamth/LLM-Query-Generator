@@ -26,9 +26,10 @@ LLM Query Generator simplifies the process of generating structured queries usin
 
 ## Example
 Here’s an example of generating a SQL query:
-python generate_query.py --input "Get all users who signed up in 2024" --output-format SQL
+```python generate_query.py --input "Get all users who signed up in 2024" --output-format SQL```
 
 ## Project Structure 
+```
 LLM-Query-Generator/
 │
 ├── generate_query.py           # Main script to generate queries
@@ -36,6 +37,7 @@ LLM-Query-Generator/
 ├── requirements.txt            # List of required Python libraries
 ├── README.md                   # Project documentation
 └── examples/                   # Folder containing example queries
+```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
